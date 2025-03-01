@@ -36,3 +36,14 @@ Once you have finished solving the exercises, be sure to commit your changes, pu
 ## Solutions
 
 We also incorporated the solution samples on `./src/solution.py` that we strongly suggest you only use if you are stuck for more than 30 min or if you have already finished and want to compare it with your approach.
+
+## Alejandro Notes
+
+Userful commands to use with the container
+
+- To run the postgresql feature use `sudo service postgresql start`
+- To veeify the status of the postgresql feature use `sudo service postgresql status`
+- To connect to the DB using psql `psql -h localhost -U postgres`
+- DB user `a24`
+- DB name `my_db`
+- Connect to DB `psql -h localhost -U a24 my_db`
